@@ -24,16 +24,10 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-    # return the correct value using the hash and key parameters
-    if key == hash[key]
-
-     return hash[key]
-
-    else
-      puts "heey"
-    end
+       # return the correct value using the hash and key parameters
+      result = hash[key] 
+      puts result
 end
-
 (read_from_hash({:name => 'Steve'}, :name))
 
 
